@@ -2,10 +2,13 @@ import React from 'react';
 import UserList from './UserList';
 import './App.css';
 
+/**
+ * Main App Component - Renders the UserList component
+ */
 function App() {
   return (
     <div className="App">
-      <UserList />
+      <UserList /> {/* Main user list component */}
     </div>
   );
 }
