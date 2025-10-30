@@ -1,20 +1,23 @@
+/**
+ * Global App Styles - Centered layout with animations
+ */
 .App {
-  text-align: center;
+  text-align: center; /* Center align all content */
 }
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
+  pointer-events: none; /* Disable interaction with logo */
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s linear; /* Continuous spin animation */
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #282c34; /* Dark background */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +28,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #61dafb; /* React brand color */
 }
 
 @keyframes App-logo-spin {
@@ -33,6 +36,6 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(360deg); /* Full rotation animation */
   }
 }
